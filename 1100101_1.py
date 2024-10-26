@@ -31,7 +31,6 @@ def fun4(length):
             array = array[::-1]
         if i > length:
             print(array[i - length - 1])
-
 def main():
     mode = int(input())
     length = int(input())
