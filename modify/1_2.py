@@ -1,9 +1,9 @@
 def input_data():
     course = []
     for i in range(int(input())):
-        course.append([int(input()),[]])
+        course.append([input(),[]])
         for j in range(int(input())):
-            course[i][1].append(int(input("time:")))
+            course[i][1].append(input("time:"))
     check_conflict(len(course), course)
 
 def check_conflict(n, course):
@@ -16,7 +16,4 @@ def check(val1, val2):
         if val1[1][x] in val2[1]:
             print(f"{val1[0]} and {val2[0]} onflict on {val1[1][x]}")
             
-def main():
-    input_data()
-
-main()
+input_data()
