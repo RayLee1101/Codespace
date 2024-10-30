@@ -1,0 +1,1 @@
+print(int(input())*440 + int(input())* 1200 + int(input()) * 130)
