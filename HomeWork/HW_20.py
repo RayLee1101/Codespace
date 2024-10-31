@@ -26,12 +26,6 @@ def main():
                 print("".join(f"{x:3d}" for x in i))
             else:
                 print(i)
-        # for i in result:
-        #     if i != "ERROR":
-        #         for j in i:
-        #             print(*j, sep="   ")
-        #     else:
-        #         print(i)
     else:
         print("ERROR")
 main()
